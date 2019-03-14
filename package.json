@@ -1,0 +1,25 @@
+{
+  "name": "element-tsx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HearTao/element-tsx.git"
+  },
+  "author": "kingwl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HearTao/element-tsx/issues"
+  },
+  "homepage": "https://github.com/HearTao/element-tsx#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "element-ui": "^2.6.1",
+    "typescript": "^3.3.3333",
+    "vue-tsx-support": "^2.2.2"
+  }
+}
