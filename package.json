@@ -1,6 +1,6 @@
 {
   "name": "element-tsx",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,13 +17,33 @@
   },
   "homepage": "https://github.com/HearTao/element-tsx#readme",
   "dependencies": {
-    
+    "vue-tsx-support": "^2.2.2"
   },
   "devDependencies": {
-    "vue": "^2.6.9",
     "@types/node": "^11.11.3",
-    "element-ui": "^2.6.1",
+    "ts-node": "^8.0.3",
     "typescript": "^3.3.3333",
-    "vue-tsx-support": "^2.2.2"
-  }
+    "@types/del": "^4.0.0",
+    "@types/gulp": "^4.0.6",
+    "@types/through2": "^2.0.34",
+    "@types/webpack-stream": "^3.2.10",
+    "del": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.1",
+    "through2": "^3.0.1",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.29.6",
+    "webpack-stream": "^5.2.1"
+  },
+  "peerDependencies": {
+    "element-ui": "^2.6.1",
+    "vue": "^2.6.9"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ]
 }
+

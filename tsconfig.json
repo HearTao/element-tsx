@@ -2,12 +2,11 @@
     "compilerOptions": {
         "strict": true,
         "module": "commonjs",
-        "target": "esnext",
+        "target": "es5",
         "moduleResolution": "node",
-        "outDir": "./lib",
-        "jsx": "preserve"
     },
     "include": [
-        "./src/**/*"
+        "./src/**/*",
+        "./gulpfile.ts"
     ]
 }
