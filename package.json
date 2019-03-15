@@ -16,8 +16,11 @@
     "url": "https://github.com/HearTao/element-tsx/issues"
   },
   "homepage": "https://github.com/HearTao/element-tsx#readme",
-  "dependencies": {},
+  "dependencies": {
+    
+  },
   "devDependencies": {
+    "vue": "^2.6.9",
     "@types/node": "^11.11.3",
     "element-ui": "^2.6.1",
     "typescript": "^3.3.3333",
