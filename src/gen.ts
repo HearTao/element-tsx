@@ -38,7 +38,9 @@ function transformDtsFile(ast: ts.SourceFile, name: string) {
                                                         ts.createIdentifier(classDeclaration.name.text),
                                                         undefined
                                                     )
-                                                ])
+                                                ]),
+                                                ts.createKeywordTypeNode(ts.SyntaxKind.AnyKeyword),
+                                                ts.createKeywordTypeNode(ts.SyntaxKind.AnyKeyword)
                                             ],
                                             []
                                         ),
